@@ -21,13 +21,15 @@ llm = ChatOpenAI(
     openai_api_base="https://openrouter.ai/api/v1",
     openai_api_key=os.environ["OPENAI_API_KEY"],
     model_name="meta-llama/llama-3.3-70b-instruct",
-    temperature=0.7,
+    temperature=0.01,
 )
 
 # 🗨️ Bucle de chat básico
 print("💬 Chatbot Mistral vía OpenRouter (escribe 'salir' para terminar)\n")
 
-Meta_promt = "Eres un profesor y debes responder muy claramente: Pregunta:"
+Meta_promt = """
+
+"""
 Memo = ''
 while True:
     user_input = input("👤 Tú: ")

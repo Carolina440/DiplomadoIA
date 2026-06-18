@@ -1,5 +1,5 @@
 {
-  "pdf_path": "/Users/orodriguez/PycharmProjects/Chatbots/Anillos.pdf",
+  "pdf_path": "/Users/orodriguez/PycharmProjects/DiplomadoIA/Anillos.pdf",
 
   "deeplake": {
     "dataset_path": "/Users/orodriguez/PycharmProjects/DiplomadoIA/deeplake_db/anillos",
@@ -25,7 +25,7 @@
 
   "llm": {
     "api_base": "https://openrouter.ai/api/v1",
-    "model_name": "mistralai/mistral-7b-instruct",
+    "model_name": "meta-llama/llama-3.3-70b-instruct",
     "temperature": 0.7
   },
 
@@ -34,7 +34,7 @@
     "enabled": true,
     "retain_across_sessions": false,
     "summary_model": "meta-llama/llama-3.3-70b-instruct",
-    "max_summary_length": 1000
+    "max_summary_length": 2000
   },
 
   "system_instruction": "Eres el fan mas experto en el señor de los anillos."
